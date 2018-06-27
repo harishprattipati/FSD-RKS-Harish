@@ -1,0 +1,24 @@
+body {	background-color: powderblue;
+}
+
+h1 {	color: pink;
+}
+
+
+p {	color: green;
+}
+
+.city {
+    background-color: tomato;
+	color: white;
+	padding: 10px;
+} 
+
+.state
+{
+  background-color: green;
+	color: white;
+	padding: 10px;
+}
+
+
