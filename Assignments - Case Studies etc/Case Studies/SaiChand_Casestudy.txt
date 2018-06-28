@@ -1,0 +1,27 @@
+				Case study 
+
+1.    what app you are researching?
+sol.  paypal
+
+2.    Is the product deliverd as a web app,a mobile app or a deskop app?
+sol.  It is a mobile app and web app only
+
+3.    what is the app target audience?
+sol.  An american company opetating a worldwide online payment system that       supports online money transfer and serves as an electronic alternative to       traditional paper methods like as checks and money order
+
+4.    what pains points does this app alleviate and or what 
+      gain points does that app provide for audience?
+sol.  pain points:
+  
+      1.It was a pain to set up the accounts:verification,slowness,fraud checks etc
+      2.Transfer were slow:took like a week
+      3.There was a $500 limit or something per transfer
+      
+      gain points:
+
+      1.Buyer protection
+      2.180 days return period
+      3.free return shipping
+
+5.    How would you summary of the app value propostion is a few words?
+sol.  Its helps to online money transfering and us currency converting the funds       they calculate the exchange currency

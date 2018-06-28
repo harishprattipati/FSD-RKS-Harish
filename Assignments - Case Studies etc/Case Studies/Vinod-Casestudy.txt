@@ -1,0 +1,59 @@
+                    CASE STUDY
+
+           zomato:an indian startup acquiring the world
+
+
+
+   HISTORY:
+             
+            zomato initially named as foodiebay was started in 2008 by mr.Deepinder goyal.it is a restarant platform providing in depth details with autonomus reviwes and ratings.foodieby,the initial name was changed to zomato in nov2010 to increas thier reach among people.
+
+            To differentiate themselves from their competitors,zomato concentrated on adding approx.18,000 new places to eat from.Along with they also decorated many special features,such as pointed to particular dishes or opening times.
+
+            Tobe the largest resource in food supply market,zomato bought urban spoon,a leading restaurent service providing portal for 52 millions to entr US,canada and australia to leverage local insights and experience and to expand their business in overseas seeing the future goal and objective.
+
+JOURNEY SO FAR:
+               
+              Over 90 million users come to visit zomato every month to search the place for dining or home delivry hence this makes a highly taargeted place for resturent owners.
+              advertising for resturents in the key revenu generater for zomato.
+
+ FUNDING:
+         Between 2010 to 2013 company rasied around 17 million dollers from an investment company info edge.then is second round of investment in 2014 zomato raised 60 million dollars from info edge.
+
+JOURNEY SO FAR:
+              In november 2010 foodiebay renamed as zomato becasuse did not want to restrict themselves to food business so the founders came up with new name zomato.
+
+
+QUTION/ANSWERS:
+
+  1) What app you are reserching ?
+    
+   Ans) zomato app was used for researching.
+
+  2) How the product delivered as a web app,a moblie app or desktp?
+
+  Ans)zomato used in mobiles,desktops,and web page.
+
+  3) Whats the apps target audienace?
+   Ans) Reach higher value audieance with data intelligence across channels with adobe.data driven exoerience.target across channels.
+
+  4) wt pain points does this app allevite?
+ 
+   Ans) Food technology is perfect example of how bubble had started coming up in the indian startup ecosystem.
+
+  5) How would you summarize the apps valu propposition in a few words?
+
+   Ans) Zomato is a resturant search and discovery service founded in 2008 by indian entrepreneure.
+
+
+
+  PAIN POINTS:  1-Building a dish database.
+                2-Spam control.
+                3-Lower server latency for our geographically                   widespread traffic
+
+  GAIN POINTS: info edge which runs the recruitment site NAUKRI.COM has                announced a further investment of rs55 crores in the                    shares of zomato.
+
+  VALU PROPOSI
+          TION: I want to eat something dine in value proposition-useer                 12.zomato enable resturents to custumers.
+
+  
