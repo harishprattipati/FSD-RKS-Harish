@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The datalist Element</h2>
+<p>The datalist element specifies a list of pre-defined options for an input element.</p>
+
+<form action="/action_page.php">
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+    <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+  <br>
+    <input type="number" name="points" step="3">
+  <br>
+    Username: <input type="text" name="usrname" required>
+
+  <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code" required>
+<input type="text" name="fname" placeholder="First name"><br>
+  <input type="text" name="lname" placeholder="Last name"><br>
+
+    <!--<input type="submit" formnovalidate value="Submit without validation">
+	
+	 <input type="submit" formaction="/action_page2.php" value="Submit to another page">
+	 
+	  <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">-->
+	  
+	  
+	<input type="submit" formmethod="post" value="Submit using POST">
+
+	
+</form>
+
+<p><b>Note:</b> The datalist tag is not supported in Safari or IE9 (and earlier).</p>
+
+</body>
+</html>
+
+

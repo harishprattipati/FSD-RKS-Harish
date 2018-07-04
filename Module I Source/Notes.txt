@@ -1,0 +1,3 @@
+GET:  www1.ganithamguru.com/welcome1.php?name=Girish&email=girish%40gmail.com
+
+POST: http://www1.ganithamguru.com/welcome.php
