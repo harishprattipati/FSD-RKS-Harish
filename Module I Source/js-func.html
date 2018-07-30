@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+
+function myFunction(name, company)
+{
+console.log(name);
+console.log(company);
+document.getElementById("demo").innerHTML="Hello  " + "Mr.  " + name + "  Welcome to  " + company +"  on board";
+
+}
+function myWish(txt)
+{
+console.log(txt);
+document.getElementById("other").innerHTML="Hello  " + txt;
+}
+
+function square(number)
+{
+//document.getElementById("number").innerHTML = document.getElementById("myNumber").value;
+console.log(number);
+
+document.getElementById("number").innerHTML= number*number;
+
+}
+</script>
+
+</head>
+<body>
+
+Enter the Number: <input type="text" id="myNumber"> </input>
+
+<p id="number">Your Wishes.....</p>
+
+<button type="button" onclick="square(document.getElementById('myNumber').value)">Try it</button>
+
+<!--
+<h2>My First Web Page</h2>
+<p id="demo">My first paragraph.</p>
+<p id="other">Your Wishes.....</p>
+
+<button type="button" onclick="myFunction('Girish','RKS')">Try it</button>
+<br>
+<button type="button" onclick="myWish('Good Morning')">Try it</button>
+<br>
+<button type="button" onclick="myWish('Good Evening')">Try it</button>
+-->
+</body>
+</html> 
