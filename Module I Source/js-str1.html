@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+<body>
+
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+<p id="demo5"></p>
+<p id="demo6"></p>
+<p id="demo7"></p>
+<p id="demo8"></p>
+<p id="demo9"></p>
+<p id="demo10"></p>
+<script> 
+
+//var txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+//var name = document.write("Chandana\t\tBrother");
+
+//var sln =  txt.length; 
+//document.getElementById("demo").innerHTML = sln; 
+
+//document.getElementById("demo1").innerHTML =  name; 
+
+
+var str1 = "Please locate where 'locate' occurs!";
+var pos1 = str1.indexOf("locate");
+document.getElementById("demo").innerHTML = pos1;
+
+var str2 = "Please locate where 'locate' occurs!";
+var pos2 = str2.lastIndexOf("locate");
+document.getElementById("demo1").innerHTML = pos2;
+
+var str3 = "Please locate where 'locate' occurs!";
+var pos3 = str3.lastIndexOf("John");
+document.getElementById("demo2").innerHTML = pos3;
+
+var str4 = "Please locate where 'locate' occurs locate";
+var pos4 = str4.indexOf("locate",22);
+document.getElementById("demo3").innerHTML = pos4;
+
+var str5 = "Please locate where 'locate' occurs!";
+var pos5 = str5.search("locate");
+document.getElementById("demo4").innerHTML = pos5;
+
+var str6 = "Apple, Banana, Kiwi"; 
+//var res = str6.slice(7, 13);
+//var res = str6.slice(7);
+//var res = str6.substring(7, 13);
+//var res = str6.substr(7, 6);
+var res = str6.substr(-7);
+document.getElementById("demo5").innerHTML =res;
+
+
+var str7 = "Apple, Banana, Kiwi"; 
+//var res1 = str7.slice(-12, -6);
+var res1 = str7.slice(-12);
+document.getElementById("demo6").innerHTML =res1;
+
+
+str8 = "Please visit MICROSOFT! Microsoft"; 
+var n = str8.replace(/Microsoft/i, "TCS");
+document.getElementById("demo7").innerHTML =n;
+
+var text1 = "Hello World!"; // String  
+var text2 = text1.toUpperCase();  // text2 is text1 converted to upper
+var text3 = text1.toLowerCase(); 
+
+document.getElementById("demo8").innerHTML =text3;
+
+
+var text11 = "Hello";
+var text22 = "World";
+var text33 = text11.concat(" ", text22);
+var text44 = "         Hello        World      ";
+var txt55 = "a, b, c, d, e"; 
+//document.getElementById("demo9").innerHTML =text22.charAt(0); 
+//document.getElementById("demo9").innerHTML =text22.charCodeAt(0); 
+document.getElementById("demo9").innerHTML =txt55.split(" "); 
+
+
+
+
+</script>
+
+</body>
+</html>
