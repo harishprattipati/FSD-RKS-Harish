@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+
+<p id="demo"></p>
+
+<script>
+
+
+      // This will cause an error
+
+try {
+"use strict";
+   // x = {p1:10, p2:20};
+	with (Math){x = cos(2)}; 
+	//var public = 1500;  
+  //x = "\010";          
+      
+}
+catch(err) {
+    document.getElementById("demo").innerHTML = err.name + " " + err.message;
+}
+
+
+/*
+var num = 1;
+try {
+    num.toUpperCase();
+}
+catch(err) {
+    document.getElementById("demo").innerHTML = err.name + " " + err.message;
+}*/
+
+</script>
+
+</body>
+</html>
+
+=============
+
+
+"use strict";
+x = {p1:10, p2:20};      // This will cause an error
+
+"use strict";
+var x = 3.14;
+delete x;                // This will cause an error
+
+"use strict";
+function x(p1, p2) {}; 
+delete x;                // This will cause an error 
+
+"use strict";
+function x(p1, p1) {};   // This will cause an error
+
+"use strict";
+var x = 010;             // This will cause an error
+
+"use strict";
+var x = "\010";            // This will cause an error
+
+"use strict";
+var obj = {};
+Object.defineProperty(obj, "x", {value:0, writable:false});
+
+obj.x = 3.14;            // This will cause an error
+
+
+"use strict";
+var obj = {get x() {return 0} };
+
+obj.x = 3.14;            // This will cause an error
+
+
+"use strict";
+delete Object.prototype; // This will cause an error
+
+
+"use strict";
+var eval = 3.14;         // This will cause an error
+
+"use strict";
+var arguments = 3.14;    // This will cause an error
+
+
+"use strict";
+with (Math){x = cos(2)}; // This will cause an error
+
+
+
+"use strict";
+eval ("var x = 2");
+alert (x);               // This will cause an error
+
+"use strict";
+var public = 1500;      // This will cause an error
+
+

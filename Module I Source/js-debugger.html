@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body>
+
+<p id="demo"></p>
+
+<p>With the debugger turned on, the code below should stop executing before it executes the third line.</p>
+
+<script>
+"use strict";
+var y = 10;
+debugger;
+var x = 15 * 5;
+document.getElementById("demo").innerHTML = x;
+</script>
+
+</body>
+</html>
+
