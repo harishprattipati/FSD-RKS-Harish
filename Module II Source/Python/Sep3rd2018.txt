@@ -1,0 +1,211 @@
+Microsoft Windows [Version 10.0.17134.228]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\skmurthy>python
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:06:47) [MSC v.1914 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> if 5 > 2
+  File "<stdin>", line 1
+    if 5 > 2
+           ^
+SyntaxError: invalid syntax
+>>> if 5>2
+  File "<stdin>", line 1
+    if 5>2
+         ^
+SyntaxError: invalid syntax
+>>> if 5 > 2:
+... print("Five is greater then Two")
+  File "<stdin>", line 2
+    print("Five is greater then Two")
+        ^
+IndentationError: expected an indented block
+>>> if 5 > 2:
+...     print("Five is greater then Two")
+...
+Five is greater then Two
+>>> #This is a comment
+...     print("Hell0")
+  File "<stdin>", line 2
+    print("Hell0")
+    ^
+IndentationError: unexpected indent
+>>> #this is a comment
+... print("Hello")
+Hello
+>>> #This is a comment.
+... print("Hello, World!")
+Hello, World!
+>>> """ test test
+... test """
+' test test\ntest '
+>>> x = 1
+>>> print(type(x))
+<class 'int'>
+>>> y = "Girish"
+>>> print(type(y))
+<class 'str'>
+>>> z = 0.38
+>>> print(type(z))
+<class 'float'>
+>>> p = 11j
+>>> print(type(p))
+<class 'complex'>
+>>> x = int(1)
+>>> print(x)
+1
+>>> y = int(2.8)
+>>> print(y)
+2
+>>> z = int("3")
+>>> print(z)
+3
+>>> type(z)
+<class 'int'>
+>>> k = int("4")
+>>> type(k)
+<class 'int'>
+>>> l = "4"
+>>> type(l)
+<class 'str'>
+>>> k = int(l)
+>>> type(k)
+<class 'int'>
+>>> x = float(1)
+>>> print(x)
+1.0
+>>> y = float(3.9)
+>>> print(y)
+3.9
+>>> z = float("3")
+>>> print(z)
+3.0
+>>> x = str("s1")
+>>> print(x)
+s1
+>>> y = str(2)
+>>> print(y)
+2
+>>> x ="Hello World"
+>>> print(x[1])
+e
+>>> print(x[10])
+d
+>>> print(x[2:5])
+llo
+>>> print(len(x))
+11
+>>> print(x.upper())
+HELLO WORLD
+>>> print(x.lower())
+hello world
+>>>
+>>> print(x.replace("H","J"))
+Jello World
+>>> x =
+  File "<stdin>", line 1
+    x =
+       ^
+SyntaxError: invalid syntax
+>>> x = "Hello, World!"
+>>> print(x.split(","))
+['Hello', ' World!']
+>>>
+>>> x = input()
+Right Key Solutions
+>>> print(x)
+Right Key Solutions
+>>> x = input()
+jjjjjjjjjjjjj
+>>> print(x)
+jjjjjjjjjjjjj
+>>> mylist = ["apple","banana","cherry"]
+>>> for x in mylist:
+...     print(x)
+...
+apple
+banana
+cherry
+>>> print(len(mylist))
+3
+>>> mylist.append("Orange")
+>>> print(mylist)
+['apple', 'banana', 'cherry', 'Orange']
+>>> mylist.insert(1,"orange")
+>>> print(mylist)
+['apple', 'orange', 'banana', 'cherry', 'Orange']
+>>> mylist.insert(2,"Grapes")
+>>> print(mylist)
+['apple', 'orange', 'Grapes', 'banana', 'cherry', 'Orange']
+>>> mylist.remove("orange")
+>>> print(mylist)
+['apple', 'Grapes', 'banana', 'cherry', 'Orange']
+>>> mylist.pop()
+'Orange'
+>>> print(mylist)
+['apple', 'Grapes', 'banana', 'cherry']
+>>> del mylist[0]
+>>> print(mylist)
+['Grapes', 'banana', 'cherry']
+>>> del mylist
+>>> print(mylist)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'mylist' is not defined
+>>> mylist = ["one","two","three"]
+>>> print(mylist)
+['one', 'two', 'three']
+>>> mylist.clear()
+>>> print(mylist)
+[]
+>>> mylist=["one","two","three"]
+>>> print(mylist)
+['one', 'two', 'three']
+>>> mylist1 = ("apple","banana","grapes")
+>>> print(mylist1)
+('apple', 'banana', 'grapes')
+>>> print(type(mylist))
+<class 'list'>
+>>> print(type(mylist1))
+<class 'tuple'>
+>>> print(mylist1[1])
+banana
+>>> mylist[1] ="Ten"
+>>> print(mylist)
+['one', 'Ten', 'three']
+>>> mylist1[1]="bananaupdated"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>> print(mylist1)
+('apple', 'banana', 'grapes')
+>>> for x in mylist1:
+...     print(x)
+...
+apple
+banana
+grapes
+>>> print(len(mylist1))
+3
+>>> mylist1.append("Test")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'append'
+>>> print(mylist)
+['one', 'Ten', 'three']
+>>> mylist.append("Four")
+>>> print(mylist)
+['one', 'Ten', 'three', 'Four']
+>>> del mylist1
+>>> print(mylist1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'mylist1' is not defined
+>>> mylist1=("two","one")
+>>> print(mylist1)
+('two', 'one')
+>>> mylist1.clear()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'clear'
+>>>
