@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+<style>
+ 
+	h2{
+		text-align:center;
+		padding-top:50px;
+		
+		}
+   .footer2 {
+   /* position: fixed;*/
+   left: 0;
+   bottom: 0;
+   float:auto;
+   width: 100%;
+   background-color: #171d21;
+   list-style-type: none;
+   color: blue;
+   text-align: left;
+}
+.column {
+    float: left;
+    width: 31.5%;
+    padding: 10px;
+    height: 200px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer3{
+	/* position:fixed; */
+	left:0;
+	bottom:0.1;
+	width:100%;
+	padding: 0.3em 0.2em;
+	background-color:black;
+	color:white;
+	text-align: center;
+	}
+
+
+
+</style>
+   
+   </head>
+<body style="background-image:url('background3.jpg')">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">About Us</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Temples
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">AP Temples</a>
+        <a class="dropdown-item" href="#">Telangana Temples</a>
+      </div>
+    </li>
+	<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        News
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">AP Temples</a>
+        <a class="dropdown-item" href="#">Telangana Temples</a>
+      </div>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#">Contact Us</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#">Accommodation</a>
+    </li>
+  </ul>
+</div> 
+</nav>
+
+
+<div class="container">  
+         
+     <h1 style="text-align:center; padding:50px; color:#ff0000;">Privacy Policy</h1>
+                <ul>
+                    <li>Protecting your privacy is important to us. The following policy provides information on how the TMS portal collects, uses, and
+					safeguards the personal information you provide on our website. This policy may change from time to time. Please reread this policy 
+					periodically. When you browse the TMS's website, you do so anonymously. We do not collect personal information except when you sign 
+					up for the membership. We also collect certain non-personally identifiable information automatically such as your Internet service
+					provider's address, the web page you are redirected from and a record of your activity on our site.</li>
+                    <li>TMS portal collects information about your computer and assigns you a "cookie" when you visit our website. Cookies are unique numbers
+					assigned by the TMS, which is transferred to a cookie file on your computer's hard drive. Cookies enable the TMS's systems to recognize
+					you when you visit our website and make it easier for you to use our website.</li>
+                    <li>At "The RKS Temples.Com", the privacy of our visitors is of extreme importance to us. This privacy policy document outlines the types of personal information is
+                        received and collected by the site, how it is used and safeguard your information.</li>
+				</ul>
+</div>
+
+
+
+
+<div class="footer2">
+ <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h4 style="color: white"><u>Quick</u> <u>Links</u></h4>
+      <ul type="none">
+      <li><a href="#" style="text-decoration:none">About Us</a></li>
+      <li><a href="#" style="text-decoration:none">Contact Us</a></li>
+      <li><a href="#" style="text-decoration:none">Videos</a></li>
+	  <li><a href="#" style="text-decoration:none">News</a></li>
+	  <li><a href="t&c.html" style="text-decoration:none">Terms & Conditions</a></li>
+	  <li><a href="privacy-policy.html" style="text-decoration:none">Privacy policy</a></li>
+	  <li><a href="disclaimer.html" style="text-decoration:none">Disclaimer</a></li>
+	  <li><a href="accordian.html" style="text-decoration:none">FAQ's</a></li>
+    </ul>
+    </div>
+    <div class="col-sm-4">
+      <h4 style="color: white"><u>Top Temples</u></h4>
+      <ul type="none">
+      <li><a href="#" style="text-decoration:none">Yadagirigutta</a></li>
+      <li><a href="#" style="text-decoration:none">Chilukur</a></li>
+      <li><a href="#" style="text-decoration:none">Tirupathi</a></li>
+	  <li><a href="#" style="text-decoration:none">More..</a></li>
+	  </ul>
+    </div>
+    <!--<div class="col-sm-4">
+       <h3 style= "color: black">Connect with us</h3>      
+    <a href="#" data-bg-color="#3B5998" target="_blank"><i class="fa fa-facebook"></i></a>
+	<a href="#" data-bg-color="#D71619" target="_blank"><i class="fa fa-google-plus"></i></a>
+	<a href="#" data-bg-color="#02B0E8" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="#" data-bg-color="#ff1a1a" target="_blank"><i class="fa fa-youtube"></i></a>
+
+    </div>-->
+  </div>
+</div>
+</div>
+
+
+ 
+  
+<div class="footer3">
+<div class="footer-bottom" data-bg-color="#1B1D26">
+      <div class="container pt-20 pb-20">
+        <div class="row">
+          <div class="col-md-2">
+            <p>&#169; All rights reserved</p>
+          </div>
+          <div class="col-md-10 col-sm-12 text-center">
+            <div class="widget no-border m-0">
+			Follow Us On:&nbsp 
+            <a href="#" data-bg-color="#3B5998" target="_blank"><i class="fa fa-facebook"></i></a> &nbsp
+	        <a href="#" data-bg-color="#D71619" target="_blank"><i class="fa fa-google-plus"></i></a> &nbsp
+	        <a href="#" data-bg-color="#02B0E8" target="_blank"><i class="fa fa-twitter"></i></a>&nbsp
+            <a href="#" data-bg-color="#ff1a1a" target="_blank"><i class="fa fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+</body>
+</html>
