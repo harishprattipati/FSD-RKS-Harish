@@ -1,3 +1,15 @@
-<p>
+<button style='color:red' [style.fontWeight]="isBold ? 'bold': 'normal'">
   my-new-component works!
-</p>
+</button>
+<br/> <br/>
+<button style='color:red' [style.font-size.px]="fontSize">
+    my-new-component works!
+  </button>
+<br/> <br/>
+  <button style='color:red' [ngStyle]="addStyles()">
+      my-new-component works!
+    </button>
+
+    <button  (click)='onClick()'>Click Me</button>
+
+    <button on-click ='onClick()'>Click Me Too</button>
